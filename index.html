@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Happy Valentine ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<div class="app">
+  <h1>💖 Happy Valentine Baby 💖</h1>
+  <p class="subtitle">Every heartbeat is you 💕</p>
+
+  <div class="buttons">
+    <button onclick="showPhotos()">📸 Photo Memories</button>
+    <button onclick="showVideo()">🎥 Video Memories</button>
+    <button onclick="showLetter()">💌 Love Letter</button>
+  </div>
+
+  <!-- PHOTO MEMORIES -->
+  <div id="photos" class="section hidden">
+    <h2>📸 Our Memories</h2>
+    <div class="polaroids">
+      <img src="photos/photo1.jpg">
+      <img src="photos/photo2.jpg">
+      <img src="photos/photo3.jpg">
+    </div>
+  </div>
+
+  <!-- VIDEO -->
+  <div id="video" class="section hidden">
+    <h2>🎥 Our Video</h2>
+    <video controls autoplay muted loop>
+      <source src="video/memories.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <!-- LETTER -->
+  <div id="letter" class="section hidden">
+    <h2>💌 My Love</h2>
+    <p class="letter">
+      My love,  
+      You are my today, my tomorrow, my forever.  
+      Every smile of yours is my happiness ❤️  
+    </p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
